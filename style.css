@@ -84,7 +84,6 @@ nav li a {
     width: 901px;
     padding-top: 200px;
     font-size: 1.3rem;
-    width: 425px;
     background-image: url(images/Group\ 14.png);
 }
 
@@ -93,12 +92,12 @@ nav li a {
 }
 
 .banner-img img {
-    width: 719px;
+    width: 720px;
 }
 
-body {
+/* body {
     padding: 50px 240px;
-}
+} */
 
 .online-games {
     display: block;
@@ -113,7 +112,7 @@ body {
 
 .game-collection {
     display: flex;
-    text-align: center;
+    justify-content: center;
 }
 #game-collection{
     padding: 10px;
@@ -143,7 +142,6 @@ body {
     border-radius: 50px;
 }
 .game:hover{
-    border:;
     border-color: #F948B2;
     color: #F948B2;
 }
