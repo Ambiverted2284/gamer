@@ -1,0 +1,185 @@
+/* Work Sans Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-txt {
+    color: #F948B2;
+    ;
+}
+
+.btn {
+    width: 130px;
+    height: 45px;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    margin-top: 50px;
+
+}
+
+.btn-pink {
+    background-color: #F948B2;
+}
+
+.btn-blue {
+    background-color: #4EC5F7;
+}
+
+header {
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-img {
+    width: 86px;
+    height: 40px;
+}
+
+.nav-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+nav>div {
+    display: flex;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+/* Banner Style */
+.goat {
+    font-size: 4rem;
+    color: rgba(249, 72, 178, 100);
+}
+
+.banner {
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.banner-text {
+    width: 901px;
+    padding-top: 200px;
+    font-size: 1.3rem;
+    width: 425px;
+    background-image: url(images/Group\ 14.png);
+}
+
+.banner-text li {
+    list-style: none;
+}
+
+.banner-img img {
+    width: 719px;
+}
+
+body {
+    padding: 50px 240px;
+}
+
+.online-games {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.online-text {
+    text-align: center;
+    padding: 20px;
+}
+
+.game-collection {
+    display: flex;
+    text-align: center;
+}
+#game-collection{
+    padding: 10px;
+}
+.banner-2{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.banner2-txt{
+    padding: 150px;
+}
+.game-types{
+    background-color: #f948b225;
+}
+.game-type{
+    display: flex;
+    justify-content: center;
+}
+.game{
+    width: 200px;
+    height: 80px;
+    display: flex;
+    margin: 10px;
+    background-color: white;
+    border: solid;
+    border-radius: 50px;
+}
+.game:hover{
+    border:;
+    border-color: #F948B2;
+    color: #F948B2;
+}
+.game img{
+    padding: 5px;
+}
+footer{
+    background-color: #0B0223;
+    color: white;
+}
+/* Responsive media queries for mobile */
+@media screen and (max-width:576px) {
+    header {
+        padding: 20px;
+        max-width: 576px;
+    }
+
+    nav {
+        flex-direction: column;
+        max-width: 400px
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .banner {
+        max-width: 400px;
+        flex-direction: column;
+    }
+
+    .banner-img img {
+        max-width: 400px;
+        width: 100%;
+    }
+
+}
