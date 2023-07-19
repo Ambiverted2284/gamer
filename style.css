@@ -147,6 +147,7 @@ nav li a {
     justify-content: center;
     align-items: center;
     opacity: 0;
+    border-radius: 20px;
     transition: opacity 0.3s ease-in-out;
   }
   .overlay i {
