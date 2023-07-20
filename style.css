@@ -14,9 +14,11 @@
     ;
 }
 .background{
- width: 170px;
+ width: 150px;
  height: 30px;
  display: flex;
+ padding: 3px;
+ border-radius: 10px;
  justify-content: space-between;
  background-color: rgba(128, 128, 128, 0.438);
 }
@@ -60,6 +62,7 @@ nav {
 .nav-title {
     font-size: 2.8rem;
     font-weight: 700;
+    margin: 0;
 }
 
 nav>div {
@@ -130,6 +133,7 @@ nav li a {
     
 }
 #game-collection{
+    display: block;
     padding: 10px;
     overflow: hidden;
     position: relative;
@@ -208,38 +212,41 @@ footer{
     color: white;
 }
 .footer-title img{
-    width: 50px;
-    height: 50px;
+    width: 3rem;
+    height: 2rem;
 }
 .footer-title{
     display: flex;
     justify-content: center;
     padding: 20px;
+    
 }
+
+.footer-title h1{
+    margin: 0;
+}
+
 .footer-options {
     display: flex;
     justify-content: center;
     color: white;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin: auto;
+}
+
+.footer-icons i{
+    width: 50px;
 }
 .footer-policy{
     display: flex;
     justify-content: center;
     color: white;
 }
-.footer-icons{
-    display: flex;
-    justify-content: center;
-    margin-left: 1000px;
-    background-color: white;
-    height: 50px;
-    width: 100px;
-    color: white;
-}
-#icons{
-    width: 30px;
-    height: 20px;
-}
-
 
 
 
@@ -248,6 +255,7 @@ footer{
     header {
         padding: 20px;
         max-width: 576px;
+        width: 100%;
     }
 
     nav {
