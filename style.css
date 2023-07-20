@@ -362,9 +362,16 @@ footer {
     }
 }
 
+/* Responsive media queries for mobile */
+
+
 @media screen and (max-width:768px) and (min-width: 576px) {
     body{
         width: 850px;
+    }
+    nav{
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     header{
         padding: 0px 100px;
@@ -382,6 +389,9 @@ footer {
     .online-games {
         padding-top: 150px;
     }
+    .online-text{
+        font-size: x-large;
+    }
 
     .game-collection {
         flex-direction: column;
@@ -392,6 +402,7 @@ footer {
         display: flex;
         justify-content: center;
         padding: 50px;
+        margin-top: 50px;
     }
     
     .banner2-txt {
