@@ -98,7 +98,7 @@ nav li a {
 }
 
 .banner-text {
-    width: 901px;
+    width: 900px;
     padding-top: 200px;
     font-size: 1.3rem;
     background-image: url(images/Group\ 14.png);
@@ -245,7 +245,7 @@ footer{
 .footer-policy{
     display: flex;
     justify-content: center;
-    color: white;
+    color: grey;
 }
 
 
