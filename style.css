@@ -343,22 +343,82 @@ footer {
         left: 60px;
         top: 120px;
     }
+
     .game-types {
         padding: 0px;
     }
+
     .game {
         width: 125px;
         height: 40px;
         display: flex;
         margin: 20px;
         font-size: smaller;
-        padding: ;
     }
-    .game img{
+
+    .game img {
         width: 40px;
-        height: 40px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width: 576px) {
+    body{
+        width: 850px;
+    }
+    header{
+        padding: 0px 100px;
+        width: 850px;
+    }
+    .banner-text {
+        width: 500px;
+        padding-top: 200px;
+    }
+    .banner-img img{
+        width: 400px;
+        height: 500px;
+    }
+
+    .online-games {
+        padding-top: 150px;
+    }
+
+    .game-collection {
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .banner-2 {
+        display: flex;
+        justify-content: center;
+        padding: 50px;
     }
     
+    .banner2-txt {
+        padding: 150px;
+    }
+    
+    .inside-pic {
+        width: 320px;
+        position: relative;
+        bottom: 250px;
+        right: 100px;
+    }
+    .game-types{
+        width: 850px;
+        padding: 120px;
+    }
+    .game {
+        display: flex;
+        margin: 20px;
+        font-size: large;
+    }
 
-
+    .game img {
+        width: 40px;
+        height: 50px;
+    }
+    footer{
+        width: 1090px;
+    }
 }
