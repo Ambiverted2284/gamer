@@ -206,6 +206,7 @@ nav li a {
 
 .game-type {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -340,6 +341,25 @@ footer {
         position: relative;
         left: 60px;
         top: 120px;
+    }
+    .game-types {
+        background-color: #f948b225;
+        padding-top: 30px;
+    }
+    
+    .game-type {
+        /* flex-direction: column; */
+    }
+    
+    .game {
+        width: 70px;
+        height: 30px;
+        display: flex;
+        font-size: smaller;
+        background-color: white;
+        border: solid;
+        border-color: white;
+        border-radius: 50px;
     }
 
 
