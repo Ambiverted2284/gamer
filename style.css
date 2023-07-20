@@ -4,6 +4,8 @@
 
 * {
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 #padding {
@@ -233,6 +235,7 @@ nav li a {
 footer {
     background-color: #0B0223;
     color: white;
+    height: 250px;
 }
 
 .footer-title img {
@@ -366,22 +369,26 @@ footer {
 
 
 @media screen and (max-width:768px) and (min-width: 576px) {
-    body{
+    body {
         width: 850px;
     }
-    nav{
+
+    nav {
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    header{
+
+    header {
         padding: 0px 100px;
         width: 850px;
     }
+
     .banner-text {
         width: 500px;
         padding-top: 200px;
     }
-    .banner-img img{
+
+    .banner-img img {
         width: 400px;
         height: 500px;
     }
@@ -389,7 +396,8 @@ footer {
     .online-games {
         padding-top: 150px;
     }
-    .online-text{
+
+    .online-text {
         font-size: x-large;
     }
 
@@ -398,27 +406,30 @@ footer {
         text-align: center;
 
     }
+
     .banner-2 {
         display: flex;
         justify-content: center;
         padding: 50px;
         margin-top: 50px;
     }
-    
+
     .banner2-txt {
         padding: 150px;
     }
-    
+
     .inside-pic {
         width: 320px;
         position: relative;
         bottom: 250px;
         right: 100px;
     }
-    .game-types{
+
+    .game-types {
         width: 850px;
         padding: 120px;
     }
+
     .game {
         display: flex;
         margin: 20px;
@@ -429,7 +440,8 @@ footer {
         width: 40px;
         height: 50px;
     }
-    footer{
+
+    footer {
         width: 1090px;
     }
 }
