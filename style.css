@@ -183,8 +183,17 @@ nav li a {
 .banner2-txt{
     padding: 150px;
 }
+.inside-pic{
+    width: 320px;
+    position: relative;
+    bottom: 250px;
+    right: 100px;
+}
+
+
 .game-types{
     background-color: #f948b225;
+    padding-top: 30px;
 }
 .game-type{
     display: flex;
@@ -194,7 +203,7 @@ nav li a {
     width: 200px;
     height: 80px;
     display: flex;
-    margin: 10px;
+    margin: 20px;
     background-color: white;
     border: solid;
     border-color: white;
