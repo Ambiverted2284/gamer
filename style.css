@@ -5,7 +5,8 @@
 * {
     font-family: 'Work Sans', sans-serif;
 }
-#padding{
+
+#padding {
     padding: 15px;
 }
 
@@ -13,15 +14,17 @@
     color: #F948B2;
     ;
 }
-.background{
- width: 150px;
- height: 30px;
- display: flex;
- padding: 3px;
- border-radius: 10px;
- justify-content: space-between;
- background-color: rgba(128, 128, 128, 0.438);
+
+.background {
+    width: 150px;
+    height: 30px;
+    display: flex;
+    padding: 3px;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.438);
 }
+
 .btn {
     width: 130px;
     height: 45px;
@@ -48,7 +51,8 @@ nav {
     display: flex;
     justify-content: space-between;
 }
-#nav-btn{
+
+#nav-btn {
     width: 50px;
     height: 15px;
     background-color: beige;
@@ -130,9 +134,10 @@ nav li a {
 .game-collection {
     display: flex;
     justify-content: center;
-    
+
 }
-#game-collection{
+
+#game-collection {
     display: block;
     padding: 10px;
     overflow: hidden;
@@ -153,37 +158,40 @@ nav li a {
     opacity: 0;
     border-radius: 20px;
     transition: opacity 0.3s ease-in-out;
-  }
-  .overlay i {
+}
+
+.overlay i {
     font-size: 50px;
     color: #fff;
     margin-bottom: 10px;
-  }
-  
-  .overlay .hover-text {
+}
+
+.overlay .hover-text {
     color: #fff;
     font-size: 18px;
-  }
-  
-  #game-collection:hover img {
+}
+
+#game-collection:hover img {
     transform: scale(1.1);
-  }
-  
-  #game-collection:hover .overlay {
+}
+
+#game-collection:hover .overlay {
     opacity: 1;
-  }
+}
 
 
 
-.banner-2{
+.banner-2 {
     display: flex;
     justify-content: center;
     padding: 50px;
 }
-.banner2-txt{
+
+.banner2-txt {
     padding: 150px;
 }
-.inside-pic{
+
+.inside-pic {
     width: 320px;
     position: relative;
     bottom: 250px;
@@ -191,15 +199,17 @@ nav li a {
 }
 
 
-.game-types{
+.game-types {
     background-color: #f948b225;
     padding-top: 30px;
 }
-.game-type{
+
+.game-type {
     display: flex;
     justify-content: center;
 }
-.game{
+
+.game {
     width: 200px;
     height: 80px;
     display: flex;
@@ -209,29 +219,34 @@ nav li a {
     border-color: white;
     border-radius: 50px;
 }
-.game:hover{
+
+.game:hover {
     border-color: #F948B2;
     color: #F948B2;
 }
-.game img{
+
+.game img {
     padding: 5px;
 }
-footer{
+
+footer {
     background-color: #0B0223;
     color: white;
 }
-.footer-title img{
+
+.footer-title img {
     width: 3rem;
     height: 2rem;
 }
-.footer-title{
+
+.footer-title {
     display: flex;
     justify-content: center;
     padding: 20px;
-    
+
 }
 
-.footer-title h1{
+.footer-title h1 {
     margin: 0;
 }
 
@@ -241,17 +256,18 @@ footer{
     color: white;
 }
 
-.footer-icons{
+.footer-icons {
     display: flex;
     justify-content: center;
     margin: 0;
     margin: auto;
 }
 
-.footer-icons i{
+.footer-icons i {
     width: 50px;
 }
-.footer-policy{
+
+.footer-policy {
     display: flex;
     justify-content: center;
     color: grey;
@@ -263,13 +279,14 @@ footer{
 @media screen and (max-width:576px) {
     header {
         padding: 20px;
-        max-width: 576px;
-        width: 100%;
+        max-width: 425px;
     }
 
     nav {
         flex-direction: column;
-        max-width: 400px
+        width: 400px;
+        align-items: center;
+
     }
 
     nav ul {
@@ -280,12 +297,50 @@ footer{
 
     .banner {
         max-width: 400px;
+        width: 425px;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .banner-text {
+        padding-top: 50px;
+        width: 400px;
+    }
+
+    .banner .banner-img img {
+        max-width: 400px;
+    }
+
+    .online-games {
+        padding-top: 150px;
+    }
+
+    .game-collection {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .banner-2 {
         flex-direction: column;
     }
 
-    .banner-img img {
-        max-width: 400px;
+    .banner2-txt {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .banner2-img img {
         width: 100%;
     }
+
+    .inside-pic img {
+        width: 60%;
+        position: relative;
+        left: 60px;
+        top: 120px;
+    }
+
 
 }
